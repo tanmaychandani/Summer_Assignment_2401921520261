@@ -3,7 +3,7 @@ class Solution {
         int n=heights.length;
         int[] nse=new int[n];
         int[] pse=new int[n];
-        nse[n-1]=n;
+        nse[n-1]=n; 
         pse[0]=-1;
         Stack<Integer>st=new Stack<>();
         st.push(n-1);
